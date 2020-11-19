@@ -22,6 +22,11 @@ p {
     font-size: 15px;
 }
 
+.type {
+    font-size: 15px;
+    font-style: italic;
+}
+
 h4 {
     margin-bottom: 10px;
 }
