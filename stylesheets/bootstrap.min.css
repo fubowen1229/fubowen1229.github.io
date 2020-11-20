@@ -1685,10 +1685,10 @@ dd {
 @media (min-width:768px) {
     .dl-horizontal dt {
         float: left;
-        width: 160px;
+        width: 200px;
         overflow: hidden;
         clear: left;
-        text-align: right;
+        text-align: left;
         text-overflow: ellipsis;
         white-space: nowrap
     }
@@ -5814,7 +5814,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 }
 
 .panel-group .panel-footer+.panel-collapse .panel-body {
-    border-bottom: 0
+    border-bottom: 0;
 }
 
 .panel-default {
