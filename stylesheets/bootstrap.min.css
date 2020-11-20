@@ -2584,7 +2584,8 @@ th {
 }
 
 .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
-    padding: 5px
+    padding: 5px;
+    border: 0
 }
 
 .table-bordered {
@@ -5793,7 +5794,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 
 .panel-group .panel {
     margin-bottom: 0;
-    border-radius: 4px
+    border-radius: 0
 }
 
 .panel-group .panel+.panel {
@@ -5805,7 +5806,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 }
 
 .panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
-    border-top: 1px solid #ddd
+    border-top: 0
 }
 
 .panel-group .panel-footer {
@@ -5813,7 +5814,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:focus, a.list-g
 }
 
 .panel-group .panel-footer+.panel-collapse .panel-body {
-    border-bottom: 1px solid #ddd
+    border-bottom: 0
 }
 
 .panel-default {
